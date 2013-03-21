@@ -1,4 +1,4 @@
-Play Random Song from iOS device
+Open Currently Playing Song in YouTube
 ===========
 
 Searches YouTube for the track currently playing in iTunes
