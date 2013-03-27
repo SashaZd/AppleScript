@@ -1,0 +1,1 @@
+tell application "Safari"	set bigURL to (get the clipboard)	set tinyURL to (do shell script "curl --url \"http://tinyurl.com/api-create.php?url=" & bigURL & "\" ")	set the clipboard to tinyURLend tell
