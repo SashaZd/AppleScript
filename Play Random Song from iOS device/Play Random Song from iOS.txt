@@ -4,6 +4,7 @@ tell application "iTunes"
 	set mainPhonePlaylist to playlist "Sasha" of myiPhone
 	set the view of the front browser window to mainPhonePlaylist
 	set EQ enabled to true
+	play playlist named "Sasha" of myiPhone
 	set myRandomSong to random number from 1 to count of tracks of (get view of front window)
 	play track myRandomSong of mainPhonePlaylist
 end tell
